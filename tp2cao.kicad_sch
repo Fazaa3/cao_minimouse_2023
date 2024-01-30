@@ -188,7 +188,7 @@
       (uuid 09287ef8-aa58-4b96-9e82-6cc14e686e9f)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "4"))
       )
     )
@@ -213,7 +213,7 @@
       (uuid 74e3968a-edcb-47f3-a327-1fe0af99b3ac)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "8"))
       )
     )
@@ -246,7 +246,7 @@
       (uuid 6a26aa62-3d53-4c12-bf8e-c30fbe00f8d2)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "6"))
       )
     )
@@ -263,7 +263,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "2"))
       )
     )
@@ -296,7 +296,7 @@
       (uuid 1583a5f8-195c-4424-9e11-f08aa471fce0)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "5"))
       )
     )
@@ -373,7 +373,7 @@
       (uuid ebb9d1fd-e50d-49bd-84bf-0c86afada703)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "3"))
       )
     )
@@ -398,7 +398,7 @@
       (uuid f5daab1b-d701-4218-a31a-f843ed563f24)
     )
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "7"))
       )
     )

@@ -1152,7 +1152,7 @@
     (pin "1" (uuid 305278f7-f6e1-4967-8058-fdc7e2bcc67a))
     (pin "2" (uuid 1bbded60-ae3d-4b54-b69c-bc4ec530539a))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R1") (unit 1)
         )
@@ -1178,7 +1178,7 @@
     (pin "1" (uuid 2a4120c7-c2ca-40e2-b503-3f96d2924c99))
     (pin "2" (uuid 38dda5b8-2257-4e51-accd-42896e3bcadf))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C6") (unit 1)
         )
@@ -1203,7 +1203,7 @@
     )
     (pin "1" (uuid 0b9f2a7e-b180-4577-9dc9-5fad423ddb3c))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR06") (unit 1)
         )
@@ -1229,7 +1229,7 @@
     (pin "1" (uuid bbbfab3b-81cb-4742-aa62-e5127cc17c5b))
     (pin "2" (uuid 8b3b4ba8-62a3-414d-9de7-5b71f0baa23d))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C2") (unit 1)
         )
@@ -1254,7 +1254,7 @@
     )
     (pin "1" (uuid 7b0f72da-d02d-4947-8b6b-b4a78c82579b))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "BOOT0") (unit 1)
         )
@@ -1280,7 +1280,7 @@
     (pin "1" (uuid 4a6f756a-0e23-4c4c-9fb4-95836fb4740d))
     (pin "2" (uuid 76cebc37-e7dd-4d0e-97cd-f1f9618a0011))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R7") (unit 1)
         )
@@ -1305,7 +1305,7 @@
     )
     (pin "1" (uuid e675c778-b3e8-4858-8ad9-32a32814ec6c))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR04") (unit 1)
         )
@@ -1339,7 +1339,7 @@
     (pin "8" (uuid 726ae448-530f-423d-9924-cb7925247acb))
     (pin "9" (uuid 0027ef2e-28d5-40e0-bf8a-d70453c7fe64))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "J1") (unit 1)
         )
@@ -1365,7 +1365,7 @@
     (pin "1" (uuid f7f52e3a-f7b4-429b-ade5-30186a16054f))
     (pin "2" (uuid f5084914-a4a7-4038-9bea-8a5440f9e8b4))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R5") (unit 1)
         )
@@ -1391,7 +1391,7 @@
     (pin "1" (uuid 7518d42b-b91a-4953-a15d-7f4957db703c))
     (pin "2" (uuid b62d39bd-b177-42c0-837a-85142993fbaa))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R6") (unit 1)
         )
@@ -1417,7 +1417,7 @@
     (pin "1" (uuid c23a7766-d276-4f8e-9dbd-5181412a862f))
     (pin "2" (uuid 4c72d34e-43fb-441a-925e-e810ff53de50))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R8") (unit 1)
         )
@@ -1443,7 +1443,7 @@
     (pin "1" (uuid 2c045769-429e-45df-825d-964e6495bb8d))
     (pin "2" (uuid 24b44bb8-d604-4337-b425-e15e79b32389))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R2") (unit 1)
         )
@@ -1515,7 +1515,7 @@
     (pin "8" (uuid 809b3282-b3be-4eaf-9b83-e58a892385f0))
     (pin "9" (uuid 00e9c66d-4ec3-44a8-8606-c1e51462bc62))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "U1") (unit 1)
         )
@@ -1541,7 +1541,7 @@
     (pin "1" (uuid 2853dcca-67c5-4ff4-a000-16b15bf67a9d))
     (pin "2" (uuid 4c35542f-7b08-4c5b-bf21-816cc5f4592e))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R9") (unit 1)
         )
@@ -1566,7 +1566,7 @@
     )
     (pin "1" (uuid f0845f42-3562-462e-841b-6006a55c0c16))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR03") (unit 1)
         )
@@ -1592,7 +1592,7 @@
     (pin "1" (uuid 670987a2-29de-431f-970c-8880cb3c8fc6))
     (pin "2" (uuid 52a0cfb1-654b-4dc6-93d1-c9cce14f1f08))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R3") (unit 1)
         )
@@ -1618,7 +1618,7 @@
     (pin "1" (uuid 977dca43-eadc-4282-99ed-1a87ec696349))
     (pin "2" (uuid 887adef0-c50c-454f-927d-56ab1eabedc5))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C4") (unit 1)
         )
@@ -1644,7 +1644,7 @@
     (pin "1" (uuid 5c14bc28-925a-414d-b5fd-72c702b9c933))
     (pin "2" (uuid 16f9c499-a740-4025-96d7-9eb1ad7d0ea7))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C5") (unit 1)
         )
@@ -1669,7 +1669,7 @@
     )
     (pin "1" (uuid e5a48262-ac97-41b4-a054-99751aa63714))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR01") (unit 1)
         )
@@ -1695,7 +1695,7 @@
     (pin "1" (uuid 19bd126f-a5a8-4942-b105-43f17fe735bd))
     (pin "2" (uuid a576f38e-c900-4f84-bf26-cc0bb81da68a))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C3") (unit 1)
         )
@@ -1720,7 +1720,7 @@
     )
     (pin "1" (uuid e28735b6-d1dd-482e-be61-f76852266a7c))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR07") (unit 1)
         )
@@ -1745,7 +1745,7 @@
     )
     (pin "1" (uuid a2f0c854-9837-4e5d-916f-ab17e41ba908))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR05") (unit 1)
         )
@@ -1771,7 +1771,7 @@
     (pin "1" (uuid d350649c-4cae-493c-bcdb-cf66564b3c47))
     (pin "2" (uuid 714bb33e-88e5-4195-9ec6-7a479bb29769))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "R4") (unit 1)
         )
@@ -1796,7 +1796,7 @@
     )
     (pin "1" (uuid d2d26b12-f56f-484a-9be8-d57873fb77c3))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "#PWR02") (unit 1)
         )
@@ -1822,7 +1822,7 @@
     (pin "1" (uuid 51089f4a-4cac-4ed9-9000-c078927b6da2))
     (pin "2" (uuid 10679fdb-90fb-4948-aa97-17f2ca2cabf1))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
           (reference "C1") (unit 1)
         )

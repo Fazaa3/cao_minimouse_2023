@@ -5,6 +5,57 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "minimouse:HC-SR04" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
@@ -185,9 +236,17 @@
   )
 
 
+  (wire (pts (xy 208.28 48.26) (xy 207.01 48.26))
+    (stroke (width 0) (type default))
+    (uuid 34fdb2d4-6458-4c39-b07c-3da42097d273)
+  )
   (wire (pts (xy 129.54 91.44) (xy 129.54 82.55))
     (stroke (width 0) (type default))
     (uuid 52371925-cbbe-41ec-927f-fbad5959a65b)
+  )
+  (wire (pts (xy 207.01 55.88) (xy 207.01 63.5))
+    (stroke (width 0) (type default))
+    (uuid 762bbc84-49f8-4761-b607-70e9d02e16be)
   )
   (wire (pts (xy 110.49 88.9) (xy 109.22 88.9))
     (stroke (width 0) (type default))
@@ -204,6 +263,10 @@
   (wire (pts (xy 109.22 91.44) (xy 129.54 91.44))
     (stroke (width 0) (type default))
     (uuid c6af3beb-3b3f-4e4a-b17c-ad3ee6cc78fd)
+  )
+  (wire (pts (xy 208.28 41.91) (xy 208.28 48.26))
+    (stroke (width 0) (type default))
+    (uuid e6787241-4bb1-43d8-ab53-70c53effd0eb)
   )
 
   (hierarchical_label "SONAR_TRIGGER" (shape input) (at 109.22 88.9 180) (fields_autoplaced)
@@ -232,9 +295,59 @@
     )
     (pin "1" (uuid 5222c9bc-59ce-4118-b559-3c75a109af28))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 208.28 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2abb5593-1139-4de2-ba13-b032129945f8)
+    (property "Reference" "#PWR013" (at 208.28 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 208.28 36.83 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 208.28 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 436aa5b7-7ceb-4f84-b9d7-71aa0a9773e5))
+    (instances
+      (project "tp2cao"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 207.01 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 59dc0cce-3f7e-42a0-bf83-1832dd75f06c)
+    (property "Reference" "#PWR035" (at 207.01 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 207.01 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 207.01 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 207.01 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 92f83a20-6092-48d5-9df3-ff293ffb59cc))
+    (instances
+      (project "tp2cao"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -257,7 +370,7 @@
     )
     (pin "1" (uuid f464d271-dee3-4533-be90-a583f1deeb59))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR030") (unit 1)
         )
@@ -285,9 +398,35 @@
     (pin "4" (uuid 30451404-0d6c-4671-836d-afda925674b1))
     (pin "3" (uuid bb9e9cfe-cd5a-4985-bf11-988cf571c459))
     (instances
-      (project "minimouse"
+      (project "tp2cao"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 207.01 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c0c668b0-ab91-455f-b4f2-bbde76294fc9)
+    (property "Reference" "C15" (at 210.82 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2uF" (at 210.82 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 207.9752 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 207.01 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid f0bf9bb7-c1a5-4d0b-a992-7f175be82605))
+    (pin "1" (uuid b42367f1-f055-4946-89a5-a9daf672a16d))
+    (instances
+      (project "tp2cao"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "C15") (unit 1)
         )
       )
     )
